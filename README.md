@@ -1,4 +1,5 @@
 # NiagaraMissileExample
+Niagaraでホーミングミサイルの処理を作成した際のサンプルプロジェクト　　
 
 ## 概要：OverView
 Niagaraを使用したホーミングミサイルのサンプルプロジェクトになります。
@@ -11,32 +12,18 @@ R Key
 敵のロック:LockTarget  
 
 ## 各種説明:Various explanations
-### プロジェクト内の処理の説明
+### プロジェクト内の処理の説明　
+ブログ内の紹介記事  
+https://argonauts.hatenablog.jp/entry/2023/04/16/164958  
+
+### 改良できそうな所
+・敵キャラへのロック持続  
+・エフェクトの強化などなど  
 
 ### プロジェクト構成
 ├─Config  
 └─Content  
     ├─Characters  
-    │  ├─Mannequins  
-    │  │  ├─Animations  
-    │  │  │  ├─Manny  
-    │  │  │  └─Quinn  
-    │  │  ├─Materials  
-    │  │  │  ├─Functions  
-    │  │  │  └─Instances  
-    │  │  │      ├─Manny  
-    │  │  │      └─Quinn  
-    │  │  ├─Meshes  
-    │  │  ├─Rigs  
-    │  │  │  └─Poses  
-    │  │  └─Textures  
-    │  └─Mannequin_UE4  
-    │      ├─Animations  
-    │      ├─Materials  
-    │      │  └─Layers  
-    │      ├─Meshes  
-    │      ├─Rigs  
-    │      └─Textures  
     ├─Collections  
     ├─LevelPrototyping  
     │  ├─Materials  
